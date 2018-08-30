@@ -1,0 +1,149 @@
+body {
+    background: linear-gradient(to right, #134e5e, #71b280);
+    color: white
+}
+
+header,
+main,
+nav,
+footer {
+    text-align: center;
+}
+
+header,
+title {
+    font-family: 'Amatic SC';
+    letter-spacing: 2px;
+    padding-left: 1em;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+nav a:hover {
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+nav a.active {
+    color: orange;
+}
+
+#me,
+#welcomeText {
+    float: left;
+    font-family: 'Amatic SC';
+    font-size: larger;
+}
+
+#welcomeText {
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7em;
+}
+
+#quote {
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+}
+
+#highlight:hover {
+    color: orange;
+    font-size: x-large;
+    transition: .5s;
+}
+
+footer {
+    clear: left;
+    background-color: black;
+    color: white;
+    font-family: 'Amatic SC';
+    letter-spacing: 3px;
+}
+
+footer #class {
+    font-family: 'Quicksand', sans-serif;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: white;
+}
+
+ th, td {
+    padding: 15px;
+    text-align: center; 
+    border-bottom: 1px dotted orange;
+ }
+
+#table-header {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    font-size: large;
+    text-align: center;
+    border-bottom: none;
+}
+
+.table-row {
+    text-align: center;
+    font-family: 'Amatic SC', bold;
+    letter-spacing: 3px;
+}
+
+h2 {
+    text-align: left;
+    padding-left: 200px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    margin-top: 2em;
+}
+
+ul {
+    text-align: left;
+    padding-left: 200px;
+}
+
+#title {
+    color: orange;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+li{
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: 'Amatic SC', bold;
+}
+
+#form {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
